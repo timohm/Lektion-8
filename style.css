@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    background-color: rgb(151, 151, 151);
+    --main-color: rgb(72, 72, 72);
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-color);
+}
+
+.nav-item {
+    display: flex;
+    justify-content: center;
+    padding: 1vh 0;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: normal;
+    font-size: 2rem;
+    background-color: var(--main-color);
+}
+
+.gitHub {
+    color: white;
+    position: absolute;
+    background-color: var(--main-color);
+    margin-left: 900px;
+    font-size: 1rem;
+}
+
+.nav-item:hover {
+    color: rgb(67, 126, 255);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.title {
+    color: white;
+}
+
+.lyrics {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    margin-top: 30px;
+}
+
+.red {
+    color: red;
+}
+
+.yellow {
+    color: yellow;
+}
+
+.green {
+    color: green;
+}
